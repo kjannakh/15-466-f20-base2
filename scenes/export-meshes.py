@@ -156,7 +156,7 @@ for obj in bpy.data.objects:
 		print("WARNING: trying to export texcoord data, but object '" + name + "' does not uv data; will output (0.0, 0.0)")
 	else:
 		uvs = obj.data.uv_layers.active.data
-		if len(obj.data.vertex_colors) != 1:
+		if len(obj.data.uv_layers) != 1:
 			print("WARNING: object '" + name + "' has multiple texture coordinate layers; only exporting '" + uvs.name + "'")
 
 	local_data = b''
