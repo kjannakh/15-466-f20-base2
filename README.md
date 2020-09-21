@@ -23,7 +23,7 @@ If you are low on battery, you will gradually get slower. If you run out, you ge
 Controls:
 
 Camera controls:
-Click and drag with right-click to rotate the camera. 
+Click and drag with right-click to rotate the camera. Use the scroll wheel to zoom in or out.
 
 Player controls:
 Use WASD to move. If you move while holding right-click, you will move in the direction of the camera. Otherwise, you will move in the direction you are already facing.
